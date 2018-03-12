@@ -19,7 +19,6 @@ exports.helpcmd = rl =>{
 
 exports.quitcmd = rl =>{
     rl.close();
-    rl.prompt();
 };
 
 exports.addcmd = rl => {
