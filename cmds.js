@@ -169,7 +169,7 @@ exports.editcmd = (rl,id) => {
    }   
    }
 };
-exports.creditscmd = () => {
+exports.creditscmd = rl => {
     log('Autor')
     log('Daniel Gonzalez Torrecilla','green');
     rl.prompt();
